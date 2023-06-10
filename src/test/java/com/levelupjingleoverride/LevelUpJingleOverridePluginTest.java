@@ -1,13 +1,14 @@
-package com.example;
+package com.levelupjingleoverride;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class LevelUpJingleOverridePluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		System.out.println("hi");
+		ExternalPluginManager.loadBuiltin(LevelUpJingleOverridePlugin.class);
 		RuneLite.main(args);
 	}
 }
